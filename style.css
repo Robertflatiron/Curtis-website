@@ -43,7 +43,7 @@
     align-items: center;
     cursor: pointer;
     text-decoration: none;
-    font-size: 5rem;
+    font-size: 2rem;
 }
 
 .navbar__menu {
@@ -227,7 +227,7 @@
 }
 
 .hero__description {
-    font-size: 60px;
+    font-size: 50px;
     background: #da22ff;
     background: -webkit-linear-gradient(to right, #9114ff, #da22ff);
     background: linear-gradient(to right, #8f0eff, #da22ff);
@@ -536,4 +536,3 @@
     }
 }
 
-/* Footer CSS */
