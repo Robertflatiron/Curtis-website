@@ -26,19 +26,19 @@ const highlightMenu = () => {
         homeMenu.classList.add('highlight')
         aboutMenu.classList.remove('highlight')
         return
-    } else if (window.innerWidth > 960 && scrollPos < 1500) {
+    } else if (window.innerWidth > 960 && scrollPos < 1400) {
         aboutMenu.classList.add('highlight')
         homeMenu.classList.remove('highlight')
         servicesMenu.classList.remove('highlight')
         return
-    } else if (window.innerWidth > 960 && scrollPos < 2900) {
+    } else if (window.innerWidth > 960 && scrollPos < 2500) {
         servicesMenu.classList.add('highlight')
         aboutMenu.classList.remove('highlight')
         contactMenu.classList.remove('highlight')
         return
-    } else if (window.innerWidth > 960 && scrollPos < 5000) {
-        servicesMenu.classList.remove('highlight')
+    } else if (window.innerWidth > 960 && scrollPos > 2500) {
         contactMenu.classList.add('highlight')
+        servicesMenu.classList.remove('highlight')
         return
     }
 
