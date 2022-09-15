@@ -65,38 +65,12 @@
     text-decoration: none;
     height: 100%;
     transition: all 0.3s ease;
-    cursor: pointer;
 }
-
-/* .navbar__btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 1rem;
-    width: 100%;
-} */
-
-/* .button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    padding: 10px 20px;
-    height: 100%;
-    width: 100%;
-    border: none;
-    outline: none;
-    border-radius: 4px;
-    background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    color: #fff;
-    transition: all 0.3s ease;
-} */
 
 .navbar__links:hover {
     color: #9518fc;
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 960px) {
@@ -196,6 +170,7 @@
     color: #fff;
 }
 
+/* Add borders when customer wants to deploy */
 .hero__title {
     background-color: #ff8177;
     background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
@@ -209,10 +184,10 @@
     cursor: pointer;
     text-decoration: none;
     font-size: 5rem;
-    border-width: 3px;
+    /* border-width: 3px;
     border-color: #fff;
     border-style: solid;
-    display: inline-block
+    display: inline-block */
 }
 
 .hero__heading span {
@@ -238,6 +213,49 @@
     -moz-text-fill-color: transparent;
 }
 
+.explore_btn {
+    font-size: 1.8rem;
+    background: #833ab4;
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    padding: 20px 60px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+
+}
+
+.explore_btn a {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+}
+
+.explore_btn:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #ff1ead;
+    transition: all 0.35s;
+    border-radius: 4px;
+}
+
+.explore_btn:hover {
+    color: #fff;
+}
+
+.explore_btn:hover:after {
+    width: 100%;
+}
+
 .highlight {
     border-bottom: 4px solid rgb(132, 0, 255);
 }
@@ -252,6 +270,52 @@
 }
 
 /* About Section */
+
+
+   
+.about_btn {
+    font-size: 1.8rem;
+    background: #833ab4;
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    padding: 20px 60px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+
+}
+
+.about_btn a {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+}
+
+.about_btn:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #ff1ead;
+    transition: all 0.35s;
+    border-radius: 4px;
+}
+
+.about_btn:hover {
+    color: #fff;
+}
+
+.about_btn:hover:after {
+    width: 100%;
+}
+
 .main {
     background-color: #131313;
     padding: 10rem 0;
@@ -306,47 +370,6 @@
     font-weight: 700;
 }
 
-.main__btn {
-    font-size: 1.8rem;
-    background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    padding: 20px 60px;
-    border: none;
-    border-radius: 4px;
-    margin-top: 2rem;
-    cursor: pointer;
-    position: relative;
-    transition: all 0.35s;
-    outline: none;
-}
-
-.main__btn a {
-    position: relative;
-    z-index: 2;
-    color: #fff;
-    text-decoration: none;
-}
-
-.main__btn:after {
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: #ff1ead;
-    transition: all 0.35s;
-    border-radius: 4px;
-}
-
-.main__btn:hover {
-    color: #fff;
-}
-
-.main__btn:hover:after {
-    width: 100%;
-}
 
 .main__img--container {
     text-align: center;
