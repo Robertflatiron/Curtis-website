@@ -353,7 +353,7 @@
 }
 
 .main__content h2 {
-    font-size: 4rem;
+    font-size: 3rem;
     background: #ff8177;
     background: -webkit-linear-gradient(to right, #9114ff, #da22ff);
     background: linear-gradient(to right, #8f0eff, #da22ff);
@@ -496,12 +496,12 @@
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    /* background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%); */
     transition: 0.3s ease-in;
 }
 
 /* These are the individual service cards */
-.services__card:nth-child(3) {
+/* .services__card:nth-child(3) {
     background-image: linear-gradient(
         -225deg,
         #231557 0%,
@@ -509,7 +509,7 @@
         #ff1361 67%,
         #fff800 100%
     );
-}
+} */
 
 .services__card h2 {
     text-align: center;
